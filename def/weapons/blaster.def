@@ -311,7 +311,7 @@ entityDef damage_blaster
 {
 	"inherit"					"damage_bullet"
 	"damage"					"1000"
-	"gib"						"1"
+	"gib"						"1" 
 
 	"fx_wound"					"effects/wounds/energy.fx"
 
