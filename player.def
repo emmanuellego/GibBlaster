@@ -795,8 +795,8 @@ entityDef player_strogg
 	"inherit"							"player_marine"
 	"hud"								"guis/hud_strogg.gui"
 	"wristcomm"							"guis/wristcomm_strogg.gui"
-	"pm_speed"							"230" 			
-	"pm_walkspeed"						"115"
+	"pm_speed"							"2300" 			
+	"pm_walkspeed"						"2000"
 	"strogg"							"1"		
 
 	"def_head"							"char_marinehead_kanestrg"
