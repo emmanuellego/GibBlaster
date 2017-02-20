@@ -465,9 +465,9 @@ entityDef projectile_nail_seek
 
 entityDef damage_nailDirect 
 {
-	"damage"					"25"
+	"damage"					"1000"
 //	"push"						"1000"
-	"gib"						"0"
+	"gib"						"1"
 
 	"deathPush"					"150"
 	"deathPushMin"				"2000 350"
@@ -478,11 +478,11 @@ entityDef damage_nailDirect
 
 entityDef damage_nailSplash 
 {
-	"damage"					"25"
+	"damage"					"1000"
 	"radius"					"50"
 	"knockback"					"5"
 	"push"						"0"
-	"gib"						"0"
+	"gib"						"1"
 
 	"deathPush"					"100"
 	"deathPushMin"				"2000 350"
@@ -498,11 +498,11 @@ entityDef damage_nailDirect_mp
 
 entityDef damage_nailSplash_mp
 {
-	"damage"					"30"
+	"damage"					"1000"
 	"radius"					"75"
 	"knockback"					"30"
 	"push"						"0"
-	"gib"						"0"
+	"gib"						"1"
 
 	"deathPush"					"100"
 	"deathPushMin"				"2000 350"

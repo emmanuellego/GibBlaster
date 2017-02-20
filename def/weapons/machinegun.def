@@ -373,8 +373,9 @@ entityDef hitscan_zoomed_bullet
 entityDef damage_machinegun
 {
 	"inherit"					"damage_bullet"
-	"damage"					"15"
-	"damage_flesh"				"18"
+	"damage"					"1000"
+	"damage_flesh"					"1000"
+	"gib"						"1"
 
 	"deathPush"					"100"
 	"deathPushMin"				"3000 350"
@@ -384,7 +385,8 @@ entityDef damage_machinegun
 entityDef damage_machinegun_flesh
 {
 	"inherit"					"damage_machinegun"
-	"damage"					"18"
+	"damage"					"1000"
+	"gib"						"1"
 }
 
 //---------------------------------------------------------------
@@ -393,14 +395,16 @@ entityDef damage_machinegun_flesh
 entityDef damage_machinegun_zoom
 {
 	"inherit"					"damage_machinegun"
-	"damage"					"20"
-	"damage_flesh"				"24"
+	"damage"					"1000"
+	"damage_flesh"					"1000"
+	"gib"						"1"
 }
 
 entityDef damage_machinegun_zoom_flesh
 {
 	"inherit"					"damage_machinegun"
-	"damage"					"24"
+	"damage"					"1000"
+	"gib"						"1"
 }
 
 //---------------------------------------------------------------

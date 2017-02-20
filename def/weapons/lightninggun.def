@@ -284,7 +284,7 @@ entityDef hitscan_lightninggun_mp
 
 entityDef damage_lightninggun
 {
-	"damage"					"11"
+	"damage"					"1000"
 //	"knockback"					"10"
 	"gib"						"1"
 
@@ -307,7 +307,7 @@ entityDef damage_lightninggun
 entityDef damage_lightninggun_mp
 {
 	"inherit"					"damage_lightninggun"
-	"damage"					"8"
+	"damage"					"1000"
 	"knockback"					"8"
 }
 

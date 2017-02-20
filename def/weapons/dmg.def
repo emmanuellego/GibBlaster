@@ -243,7 +243,7 @@ model weapon_dmg_world
 
 entityDef damage_dmg_fly
 {
-	"damage"					"30"
+	"damage"					"1000"
 	"radius"					"200"
 //	"knockback"					"100"
 	"push"						"-3000"
@@ -268,11 +268,11 @@ entityDef damage_dmg_fly
 
 entityDef damage_dmg_splash 
 {
-	"damage"					"50"
+	"damage"					"1000"
 	"radius"					"150"
 	"knockback"					"100"
 	"push"						"20000"
-	"gib"						"0"
+	"gib"						"1"
 
 	"deathPush"					"100"
 	"deathPushMin"				"7000 9000"
@@ -330,7 +330,7 @@ entityDef projectile_dmg
 
 entityDef damage_dmg_mp
 {
-	"damage"					"200"
+	"damage"					"1000"
 	"gib"						"1"
 
 	/*
@@ -352,7 +352,7 @@ entityDef damage_dmg_mp
 
 entityDef damage_dmg_splash_mp
 {
-	"damage"					"100"
+	"damage"					"1000"
 	"radius"					"768"
 	"gib"						"1"
 

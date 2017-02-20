@@ -331,7 +331,8 @@ entityDef hitscan_shotgun_pellet
 entityDef damage_pellet
 {
 	"inherit"					"damage_bullet"
-	"damage"					"14"
+	"damage"					"1000"
+	"gib"						"1"
 
 	"splat_size"				"128"
 	
@@ -344,7 +345,8 @@ entityDef damage_pellet_mp
 {
 	"inherit"					"damage_pellet"
 	"knockback"					"10"
-	"damage"					"10"
+	"damage"					"1000"
+	"gib"						"1"
 }
 
 //--------------------------------------------------------------------------------------------------------------------
